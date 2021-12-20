@@ -1,2 +1,2 @@
-# myscript
-For Windows
+# Windows Script
+For Windows only
