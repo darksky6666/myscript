@@ -35,10 +35,12 @@ echo Repairing system file... Please close all the programs...
 echo.
 echo.
 pause
+cls
 dism /online /cleanup-image /restorehealth
 sfc /scannow
 echo.
 echo.
+timeout /t 2 /nobreak
 echo Press any key to restart the PC...
 pause >nul
 shutdown -r -t 60
