@@ -38,6 +38,7 @@ pause
 cls
 dism /online /cleanup-image /restorehealth
 sfc /scannow
+chkdsk /R /F C:
 echo.
 echo.
 timeout /t 2 /nobreak
